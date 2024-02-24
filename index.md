@@ -1,7 +1,7 @@
 ---
-layout: page
-title: (root)/Index.md
-sitemap: false
+layout: welcome
+title: Welcome
+cover: true # hydejack's cover page
 ---
 
 Hooray! Finally got rid of 404 at yuzzznh.github.io!
