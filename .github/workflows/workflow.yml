@@ -36,6 +36,7 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         target_branch: 'gh-pages'  # The branch the built site will be pushed to
         build_directory: '_site'   # The directory Jekyll will build to
+        jekyll_src: './'
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
