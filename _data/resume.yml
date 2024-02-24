@@ -3,34 +3,38 @@
 # See also: <https://jsonresume.org/>.
 basics:
   name: "Yujin Kim"
-  label: "Programmer"
+  label: "Undergraduate Student"
   picture: "/assets/img/yujin.jpg"
-  email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  email: "yujin.k@snu.ac.kr"
+  # phone: "(912) 555-4321"
+  website: "https://yuzzznh.github.io"
+  github: "https://github.com/yuzzznh"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    Yujin Kim is from Seoul, Republic of Korea.
+    She is studying computer science in Seoul National University.
+    Recently became interested in diffusion models and generative AI.
+
+  #   Richard hails from Tulsa.
+  #   He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
+  #   Before starting Pied Piper, he worked for Hooli as a part time software developer.
+  #   While his work focuses on applied information theory,
+  #   mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
+  #   his non-work interests range widely,
+  #   everything from quantum computing to chaos theory.
+  #   He could tell you about it, but THAT would NOT be a “length-limited” conversation!
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
-    region: "California"
-  profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
-    - network: "LinkedIn"
-      username: "Yujin Kim"
-      url: ""
+    address: "1 Gwanak-ro, Gwanak-gu, Seoul 08826, Korea"
+    # postalCode: "CA 94115"
+    # city: "San Francisco"
+    # countryCode: "US"
+    # region: "California"
+  # profiles:
+  #   - network: "Twitter"
+  #     username: "RHendricksCEO"
+  #     url: ""
+  #   - network: "LinkedIn"
+  #     username: "Yujin Kim"
+  #     url: ""
 work:
   - company: "Pied Piper"
     position: "CEO/President"
@@ -55,26 +59,26 @@ volunteer:
     highlights:
       - "Awarded 'Teacher of the Month'"
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
+  - institution: "Seoul National University"
+    area: "Computer Science"
     studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
+    startDate: "2020-03-02"
+    endDate: "2025-02-01"
+    gpa: "4.5T.T"
     courses:
       - "DB1101 - Basic SQL"
       - "CS2011 - Java Introduction"
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
-publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+# awards:
+#   - title: "Digital Compression Pioneer Award"
+#     date: "2014-11-01"
+#     awarder: "Techcrunch"
+#     summary: "There is no spoon."
+# publications:
+#   - name: "Video compression for 3d media"
+#     publisher: "Hooli"
+#     releaseDate: "2014-10-01"
+#     website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
+#     summary: "Innovative middle-out compression algorithm that changes the way we store data."
 skills:
   - name: "Web Development"
     level: "Master"
@@ -89,8 +93,10 @@ skills:
       - "MP4"
       - "GIF"
 languages:
+  - language: "Korean"
+    fluency: "Native speaker" # TODO fix to mother tongue if possible
   - language: "English"
-    fluency: "Native speaker"
+    fluency: "Native speaker" # TODO fix to fluent if possible
 interests:
   - name: "Wildlife"
     keywords:
