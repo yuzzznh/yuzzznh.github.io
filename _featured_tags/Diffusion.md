@@ -19,6 +19,9 @@ no_groups: true
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
 sitemap: false
 
+# Set to to true if you want the category or tag to appear in the sidebar
+menu: true
+
 # Yujin TODO
 # 아래의 옵션들이 사용 가능한 것으로 보인다. 아니라면 빠르게 튀자
 order: 1
