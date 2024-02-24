@@ -1,9 +1,11 @@
 ---
 # Featured tags need to have either the `list` or `grid` layout (PRO only).
-layout: grid
+layout: about # hydejack's special layout
 
 # The title of the tag's page.
 title: About
+
+<!--author--> # hydejack's special layout
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
 slug: about
