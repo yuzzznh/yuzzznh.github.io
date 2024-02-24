@@ -2,9 +2,9 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
+  name: "Yujin Kim"
   label: "Programmer"
-  picture: "https://via.placeholder.com/240x240"
+  picture: "/assets/img/yujin.jpg"
   email: ""
   phone: "(912) 555-4321"
   website: "https://piedpiper.com"
@@ -29,7 +29,7 @@ basics:
       username: "RHendricksCEO"
       url: ""
     - network: "LinkedIn"
-      username: "Richard Hendricks"
+      username: "Yujin Kim"
       url: ""
 work:
   - company: "Pied Piper"

@@ -35,7 +35,7 @@ author:
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
-# Add links to the sidebar.
+# Add links to the sidebar. Yujin TODO
 menu:
   - title:             Blog
     url:               /blog/
@@ -46,7 +46,7 @@ menu:
   - title:             Documentation
     url:               /docs/
 
-# Add links to the footer.
+# Add links to the footer. Yujin TODO
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
   - title:             LICENSE
