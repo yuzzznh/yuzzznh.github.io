@@ -1,8 +1,11 @@
 ---
 layout: page
-title: Thank You!
+title: (root)/Index.md
 sitemap: false
 ---
+
+Hooray! Finally got rid of 404 at yuzzznh.github.io!
+Yujin will continue customizing this blog.
 
 Thank you for buying the PRO version of Hydejack! 🎉
 
