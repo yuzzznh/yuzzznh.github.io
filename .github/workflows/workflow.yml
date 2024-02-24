@@ -1,0 +1,26 @@
+name: Build and Deploy Jekyll Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Set this to the branch you want to trigger the build
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Source
+      uses: actions/checkout@v2
+
+    - name: Build Jekyll Site
+      uses: helaili/jekyll-action@2.0.4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        target_branch: 'gh-pages'  # The branch the built site will be pushed to
+        build_directory: '_site'   # The directory Jekyll will build to
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site       # The directory to publish
