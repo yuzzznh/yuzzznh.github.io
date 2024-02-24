@@ -39,6 +39,8 @@ author:
 menu:
   - title:             Blog
     url:               /blog/
+  - title:             Review
+    url:               /review/
   - title:             Projects
     url:               /projects/
   - title:             Résumé*
