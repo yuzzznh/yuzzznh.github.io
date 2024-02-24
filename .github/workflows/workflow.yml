@@ -35,8 +35,11 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         target_branch: 'gh-pages'  # The branch the built site will be pushed to
-        build_directory: '_site'   # The directory Jekyll will build to
+        build_dir: '_site'   # The directory Jekyll will build to
         jekyll_src: './'
+    
+    - name: Resolve repository ownership issue
+      run: git config --global --add safe.directory /github/workspace
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
