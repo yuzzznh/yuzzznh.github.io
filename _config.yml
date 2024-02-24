@@ -45,6 +45,8 @@ menu:
     url:               /resume/
   - title:             Documentation
     url:               /docs/
+  - title:             Etc
+    url:               /etc/
 
 # Add links to the footer. Yujin TODO
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -282,7 +284,7 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /blog/:name/
+    permalink:         /:name/
     output:            true
 
   featured_tags:
