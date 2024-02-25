@@ -8,7 +8,9 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Yujin Kim is an undergraduate student majoring in Computer Science.
+    Hello!
+    I am Yujin Kim, an undergraduate student majoring in Computer Science.
+    I made this blog to record my progress while studying.    
     
   # This photo will be used in the about section
   picture:

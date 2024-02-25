@@ -31,3 +31,6 @@ menu: true
 ---
 
 <!--author-->
+
+"Yuzzznh," my ID, comes from "yuzzzny," the combination of "yujini," which is a Korean phrase calling my name, and "zzz," representing the sound of sleeping. 
+I then altered the last letter to make the entire ID point symmetrical.

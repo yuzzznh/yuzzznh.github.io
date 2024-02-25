@@ -10,9 +10,13 @@ This is [yuzzznh](https://github.com/yuzzznh){:.heading.flip-title}'s blog.
 
 I hope you enjoy visiting here!
 
-In case you became interested, please feel free to find out my [resume]{:.heading.flip-title}.
+In case you became interested, please feel free to find out my [resume].
 
 Have a nice day!
+
+Warm regards,
+
+Yuzzznh
 
 <!-- ## First Steps
 Start by reading the [Documentation]{:.heading.flip-title}.
