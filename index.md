@@ -26,10 +26,6 @@ After you've familiarized yourself with Hydejack, you can delete the following f
 containing example content:
 
 ~~~
-├── _projects
-│   └── *
-├── docs
-├── example
 ├── assets
 │   └── img
 │       ├── blog

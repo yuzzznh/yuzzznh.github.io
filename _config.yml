@@ -38,9 +38,13 @@ author:
 # Add links to the sidebar. Yujin TODO
 menu:
   - title:             About
-    url:               /blog/about/
+    url:               /about/
   - title:             Blog
     url:               /blog/
+  - title:             Class
+    url:               /class/
+  - title:             Reviews
+    url:               /reviews/
   - title:             Projects
     url:               /projects/
   - title:             Résumé
@@ -287,6 +291,10 @@ collections:
 
   projects:
     permalink:         /projects/:path/
+    output:            true
+  
+  reviews:
+    permalink:         /reviews/:path/
     output:            true
 
 
