@@ -14,7 +14,7 @@ In case you became interested, please feel free to find out my [resume]{:.headin
 
 Have a nice day!
 
-## First Steps
+<!-- ## First Steps
 Start by reading the [Documentation]{:.heading.flip-title}.
 Specifically, the chapters below should be relevant now:
 
@@ -35,6 +35,6 @@ containing example content:
 │       ├── blog
 │       └── projects
 ├── forms-by-example.md
-~~~
+~~~ -->
 
 [resume]: resume.md

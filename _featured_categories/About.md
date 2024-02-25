@@ -2,6 +2,7 @@
 layout: about
 title: About
 category: About
+menu: true
 
 # # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
 # slug: about
