@@ -1,9 +1,4 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+# workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll site to Pages
 
 on:
@@ -33,14 +28,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
         with:
           ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           bundler: 2.5.6
-          cache-version: 1 # Increment this number if you need to re-download cached gems
+          cache-version: 0 # Increment this number if you need to re-download cached gems
       
+      # 추가된 단계: Frozen Mode 비활성화
+      - name: Disable Frozen Mode for Bundler
+        run: bundle config set --local frozen false
+
       - name: Add Linux platform to Gemfile.lock
         run: bundle lock --add-platform x86_64-linux
 
