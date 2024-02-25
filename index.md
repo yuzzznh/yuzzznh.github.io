@@ -22,17 +22,13 @@ After you've familiarized yourself with Hydejack, you can delete the following f
 containing example content:
 
 ~~~
-├── _featured_categories
-│   └── example.md
 ├── _projects
 │   └── *
 ├── docs
 ├── example
-├── licenses
 ├── assets
 │   └── img
 │       ├── blog
-│       ├── docs
 │       └── projects
 ├── forms-by-example.md
 ~~~
