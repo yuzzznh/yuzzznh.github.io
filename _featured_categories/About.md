@@ -28,8 +28,4 @@ title: About
 #   overlay: false
 ---
 
-Some content inside _featured_categories > About.md, before the author block
-
 <!--author-->
-
-Some content after the author block
