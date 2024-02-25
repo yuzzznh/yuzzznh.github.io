@@ -4,11 +4,15 @@ title: Welcome
 cover: true # hydejack's cover page
 ---
 
-Hooray! Finally got rid of 404 at yuzzznh.github.io!
-Yujin will continue customizing this blog.
+Hi there!
 
+This is [yuzzznh](https://github.com/yuzzznh){:.heading.flip-title}'s blog.
 
-That and more is now Hydejack. I hope you enjoy it [as much as I do](https://qwtel.com/).
+I hope you enjoy visiting here!
+
+In case you became interested, please feel free to find out my [resume]{:.heading.flip-title}.
+
+Have a nice day!
 
 ## First Steps
 Start by reading the [Documentation]{:.heading.flip-title}.
@@ -33,7 +37,4 @@ containing example content:
 ├── forms-by-example.md
 ~~~
 
-[documentation]: docs/README.md
-[install]: docs/install.md
-[upgrade]: docs/upgrade.md
-[config]: docs/config.md
+[resume]: resume.md
