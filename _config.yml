@@ -40,13 +40,13 @@ menu:
   - title:             Blog
     url:               /blog/
   - title:             Review
-    url:               /review/
+    url:               /blog/review/
   - title:             Projects
     url:               /projects/
   - title:             Résumé*
     url:               /resume/
   - title:             Etc
-    url:               /etc/
+    url:               /blog/etc/
 
 # Add links to the footer. Yujin TODO
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -80,7 +80,7 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/day-seoul-blur.png
+accent_image:          /assets/img/marble-light.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -395,21 +395,21 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/day-seoul-blur.png
+        path: /assets/img/marble-light.jpg
     posts:
       layout: post
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/day-seoul-blur.png
+        path: /assets/img/marble-light.jpg
     projects:
       layout: project
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/night-jeju-blur.png
+        path: /assets/img/marble-dark.jpg
       links:
         - title: Project Link
           url: https://example.com
