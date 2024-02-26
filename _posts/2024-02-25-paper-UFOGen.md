@@ -41,24 +41,45 @@ category: [paper, diffusion, todo]
 ## (3.2) Diffusion-GAN Hybrids
 
 # 4. Methods
+- 이 섹션은 우리가 diffusion-GAN hybrid model에서 개선하여 UFOGen model을 탄생시킨 부분들에 대해 다룬다.
+- 이러한 개선사항들은 두 가지 부분에 초점이 맞춰져 있다.
+1. enabling one step sampling (section 4.1에서 후술)
+2. scaling-up for text-to-image generation (section 4.2에서 후술)
+  - pre-trained diffusion model을 활용!
 
 ## 4.1 Enabling One-step Sampling for UFOGen
+- diffusion-GAN hybrid model은 training을 large denoising step size로 하도록 맞춤제작되었다 (tailored)
+- 그러나 이 모델을 **single denoising step만으로 train**하려는 시도는, 사실상 model training을 conventional GAN의 training으로 reduce해버리겠다는 것이다.
+  - single denoising step으로 model을 train하자는 건 $$x_{T-1} = x_0$$을 의미한다.
+- 결과적으로 그동안의 (prior) diffusion-GAN model들은 one-step sampling을 달성할 수 없었다ㅠㅠ
+- 이러한 challenge를 고려하여, 우리는 
 
-### (4.1.1) Parameterization of th eGenerator
+
+### (4.1.1) Parameterization of the Generator
 
 ### (4.1.2) Improved Reconstruction Loss at $$x_0$$
 
 ### (4.1.3) Training and Sampling of UFOGen
 
-## 4.2 Leverage Pre-trained Diffusion Models
+## 4.2 Leverage Pre-trained Diffusion Models (-> scaling-up for text-to-image generation)
+### 문제
 - 우리의 목표는 ultra-fast text-to-img 모델을 만드는 것이다.
-- 근데 effective UFOGen recipe에서 web-scale data로의 transition은 challenging하다.
-- (text-to-img 생성을 위한 diffusion-GAN hybrid model에서) **training**이 여러모로 복잡하다ㅠㅠ
-- 특히 discriminator(판별자)는, text-image alignment에서 가장 중요한 texture(질감)과 semantics(의미) 둘다를 기반으로 판단을 내려야 한다.
-- 이 challenge는 training의 initial stage(초기단계)에서 특히 두드러진다.
-- 게다가 text-to-imgae model의 training은 cost가 엄청 높을 수 있다 - 특히 GAN 기반 모델의 경우 discriminator가 추가적으로 parameter를 갖고있다ㅠㅠ
+- 근데 effective UFOGen recipe에서 **web-scale data**로의 transition은 challenging하다.
+- (text-to-img 생성을 위한 diffusion-GAN hybrid model에서) **training**이 여러모로 복잡하기 때문 ㅠㅠ
+  - 특히 **discriminator**(판별자)는, text-image alignment에서 가장 중요한 texture(질감)과 semantics(의미) 둘다를 기반으로 판단을 내려야 한다.
+  - 이 challenge는 training의 **initial stage**(초기단계)에서 특히 두드러진다.
+  - 게다가 text-to-imgae model의 training은 cost가 엄청 높을 수 있다 - 특히 GAN 기반 모델의 경우 discriminator가 추가적으로 parameter를 갖고있다ㅠㅠ
   - 순수 GAN 기반의 text-to-img 모델은 이런 복잡성 때문에 매우 복잡하고 비싼 training을 초래한다
-  - 
+### 해결
+- diffusion-GAN hybrid model을 scaling-up하는 challenge를 극복하기 위해, 우리는 **pre-trained text-to-image diffusion model**, 특히 **stable diffusion model**을 활용할 것을 제안한다.
+  - 구체적으로, UFOGen 모델은 generator와 discriminator 모두에 일관된 UNet structure를 사용하도록 설계되었다.
+  - 이 design은 pre-trained stable diffusion model을 이용한 initialization이 원활하도록 해준다.
+  - 우리는 stable diffusion model의 internal feature (내부의 특징) 들이 textual & visual data 사이의 복잡한 interplay (상호작용) 에 대해 rich information을 포함하고 있다고 가정한다.
+### 성과
+- 이 initialization 전략은 UFOGen의 training을 상당히 간소화해준다.
+  - stable diffusion model로 UFOGen의 generator와 discriminator를 initialize한 후, 우리는 stable training dynamics (안정적인 training 동역학) 과 놀랍도록 빠른 convergence (수렴) 을 관찰할 수 있었다.
+- UFOGen의 완전한 훈련 전략은 다음의 Fig 3에 나타나 있다.
+![Full-width image](/assets/img/blog/2024-02-25-UFOGen-Fig3.png)
 
 # 5. Experiments
 
