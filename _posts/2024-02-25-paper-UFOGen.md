@@ -32,7 +32,18 @@ category: [paper, diffusion, todo]
 - Song의 seminal work에서, diffusion model에서의 sampling은, 사실 diffusion process와 관련된 PF-ODE를 풀어내는 것과 equilvalent하다는 것이 밝혀졌다.
   - PF-ODE = probability flow ordinary differential equation (확률 흐름 일반 미분방정식)
 - 현재, diffusion model의 sampling efficiency를 개선하고자 하는 연구들은 대부분 ODE formulation (공식화) 에 중점을 둔다.
-- 
+- One line of work (한 분야의 작업) 은 PF-ODE에 대한 numerical solver를 발전시키려고 한다. 이를 통해 discretization size가 더욱 큰 ODE도 해결가능하게 함으로써, 궁극적으로는 requisite (필요한) sampling step 수를 줄이려는 것이 목적이다.
+  - 그러나 step size와 accuracy 간의 inherent trade-off는 여전히 존재한다😵
+  - PF-ODE의 highly non-linear and complicated trajectory를 고려하면, required sampling step 수를 minimal level(최소 수준)으로 줄이는 것은 겁나 어려울 것이다.
+  - 심지어 가장 발전된 solver조차도 image generate에 10~20 sampling step이 필요하며, 이를 더 줄여버리면 image quality가 확연히 떨어져버린다.
+- 대안적인 approach는 pre-trained diffusion model로부터 PF-ODE trajectory를 distill하고자 한다.
+  - trajectory를 distill한다는게 무슨뜻인지 모르겠음. TODO
+  - distillation의 그 distill인 듯!
+  - 예를 들어, progressive distillation 기법은 / PF-ODE solver의 multiple discretizatio step들을 / single step으로 압축하려고 시도한다 / by explicitly aligning (일치시키기) with the solver's output!
+  - 마찬가지로, consistency distillation 기법은 ODE trajectory를 따라 point consistency를 유지하는, consistency mapping을 learn하는 방식이다.
+  - 이와 같은 기법들은 sampling step 수를 상당히 줄일 수 있는 potential을 보여주었다.
+  - 하지만, ODE trajectory의 intrinsic(본질적인) complexity로 인해, extremely small step regime에서는 다들 어려움을 겪고 있다. 특히 large-scale text-to-image diffusion model에서는.
+  - 
 
 # 2. Related Works
 
