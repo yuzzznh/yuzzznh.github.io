@@ -119,6 +119,7 @@ category: [summary]
   - leg = 직각삼각형의 밑변과 높이를 각각 나타낸다 (둘이 구별 X) ⬌ **[hypotenuse](.)** = 빗변
     - 사실 leg라고 했기때문에!!! 직각삼각형이 되는 것.
       - A triangle has 2 **leg** size of X and Y respectively **=>** 그 삼각형은 **직각삼각형**!!!
+- 세 내각의 합은 180도. <- Euclidean geometry의 convention!
 
 ## Quadrilateral (사각형)
 - parallelogram = 평행사변형!!!
@@ -131,10 +132,11 @@ category: [summary]
   - bases = 사다리꼴의 두 평행한 변
 
 ## Circle (원)
+- 영어로 곡선은 curve. <-> straight
 - diameter = 지름 ⬌ radius = 반지름
 - [chord(코드)](.) = 현: 원 안의 선분!
   - 지름과 현의 관계: chord에서 가장 긴 길이는 diameter (원의 center를 지날 때)
-- [arc](.) = 호: 곡선! $$2\pi r$$ 관련. 
+- [arc](.) = 호: 곡선! $$2\pi r$$ 관련.
   - measure of an arc = 중심각의 크기
   - circle은 arc with measure 360 degree.
 - [sector](.) = 부채꼴. $$\pi r^2$$ 관련.
@@ -143,8 +145,9 @@ category: [summary]
 - 다각형이 원에 내접 = [inscribed](.) <-> 원이 다각형에 외접 = [circumscribed](.)
 - 다각형이 원에 외접 = circumscribed = 다각형의 각 변이 원의 접선
 - concentric circles = 동심원
+- circumference = 원주, 원의 둘레
 
-# Three-Dimensional Figures
+## Three-Dimensional Figures
 - rectangular solid = right rectangular prism = 직육면체
   - facees = 면
   - edge = 모서리
@@ -156,24 +159,54 @@ category: [summary]
 - right circular cylinder = axis가 bases에 perpendicular
 
 ## Set (집합)
-- either A or B = 합집합 = A 또는 B (교집합 아님!)
-- both A and B = 교집합
+- either A or B = 합집합 = A 또는 B (교집합 아님!) = union
+- both A and B = 교집합 = intersection
 - neither A nor B = 여집합
 - [either A or B, **but not both**](.) = 차집합 = **합집합 - 교집합** = A + B - **2** A ∩ B
-- circumference = 원주, 원의 둘레
+- disjoint = mutually exclusive = (두 집합이) 서로소.
+- venn diagram = 벤 다이어그램.
+  - universal set = U. 벤 다이어그램 동그라미들을 전부 포함하는 집합.
+- inclusion-exclusion principle: 합집합 원소개수 = 각 집합 원소개수의 합 - 교집합 원소개수
+- multiplication principle = 두 선택이 독립일 때, 경우의 수는 각 가지수를 곱해주면 나온다
+- permutation of n objects taken k at a time = $$_nP_k$$
+- combinations of n objects taken t at a time = $$_nC_k$$ = n choose k
+- n-factorial = n!
+- distribution curve = density curve = frequency curve = 분포 그래프. 면적이 1이 되게 한.
+- random variable = 확률변수
+  - probability distribution (of rv X)
+  - mean of rv X = expectted value = 기대값 = 평균
+- uniform distribution
+- standard normal dist = mean 0 std 1
 
 ## Statistics
 - **average** = **mean** = arithmetic mean = **평균** (산술평균) (합산!)
+  - weighted mean = 가중치(를 항목마다 달리하는) 평균
 - **median** = 중앙값 (**위치**상 가운데! medium이랑 관련지어서 기억하자)
 - **[mode](.)** = 최빈값 (가장 빈번하게 나오는 숫자! frequency 가장 높음 ➞ **영향력**!)
 - **[range](.) = 범위 = max값 - min값** ➞ min ~ max=min+range 
 - normal distribution = 정규분포
   - 표준정규분포가 아님에 유의하자! standard 아님!
   - 여기선 mean, median, mode 세 값이 다 같다! ➞ 대칭분포도라고 부르기도 한다!
-- **[percentile](.)** = 백분위
-  - 낮은점수부터 앞쪽으로 세준 것.
-  - GRE도 percentile로 뜬다. *높을수록 잘 친 것*. 99%가 1등한 것!
+- position <- the beginning, the middle, the end 등으로 나타낼 수 있다
+  - quartiles: 사분위수.
+    - first quartile = Q1, second quartile = Q2, third quartile = Q3
+  - **[percentile](.)** = 백분위.
+    - 낮은점수부터 앞쪽으로 세준 것.
+    - GRE도 percentile로 뜬다. *높을수록 잘 친 것*. 99%가 1등한 것!
 - [tie](.) = 비기다
+
+- Dispersion = 산포도
+  - range = 범위
+    - outlier의 영향을 직빵으로 받는다
+  - interquartile range
+    - Q1부터 Q3까지의 range. Q3-Q1.
+  - boxplots = box-and-whisker plots = L(최소값) [Q1 Q2!!! Q3] G(최대값)을 box와 선으로 나타냄.
+  - standard deviation = 표준편차. (range/interquartile range와 다르게) 각 number의 영향을 두루 받는 spread의 지표.
+    - sample standard deviation = 표본표준편차. 
+      - 표본에 비해 모집단에서는 더 많은 데이터가 있을테니 표준편차가 더 클거다. 이를 반영하기 위해 ***n이 아닌 n-1로 나눈다!!!***
+    - sample std와 구분을 위해 그냥 std를 population std로 부르기도 한다! (모집단 표준편차)
+
+- standardization = 표준화: mean을 빼고 std로 나누기. $$\frac{X - \mu}{\sigma}$$
 
 ## 단위
 - **1 feet = 12 inch**
@@ -182,10 +215,12 @@ category: [summary]
 - **dime** = 10 cent = 100원
 - **quarter** = 25 cent = *(250원) 동전 <- 얘 빼고 싹 다 우리나라 동전/지폐랑 동일*
 - **dollar** = 100 cent = 1000원 지폐 *(1000원은 100센트지 1000센트가 아니다!!!)*
-
-## 기타
-- projected = 예상된 ⬌ actual
-
+- thousand = 천 = $$10^3$$ = 1,000
+- million = 백만 = $$10^6$$ = 1,000,000
+- billion = 10억 = $$10^9$$ = 1,000,000,000
+- dozen = 12
+- XX.5는, 양수면 큰 쪽으로 반올림하고, 음수면 작은 쪽으로 반올림한다. 어쩄든 둘다 절대값이 커지는 쪽으로 반올림한다~~~
+  
 ## Algebra
 - term = 항
 - algebraic expression = (sum of) terms
@@ -246,5 +281,21 @@ category: [summary]
   - scale factor of similarity
 
 ## Data Analysis
+- variables의 종류: quantitative = numerical <-> categorical = nonnumerical
+- distribution of variable/data
+- frequency = count = 도수 -> frequency distribution = 도수 분포
+- relative frequency = 상대 도수 -> relative frequency distribution = 상대 도수 분포
+- bar graph = bar chart = 막대그래프. x축은 카테고리, y축은 수
+- segmented bar graph = stacked bar graph = 막대그래프에서, 한 카테고리를 여러 segment로 쪼개 각 항목의 크기를 나타낸 것
+  - 예: enrollment 막대그래프에서 full-time segment와 part-time segment를 stack해서 stacked/segmented bar graph로 표시
+- histogram = 히스토그램. x축은 수를 interval로 쪼갠 것, y축은 수
+- circle graph = pie charts = 원형 그래프. 시간표 짜듯이. percent 많이 ㅏ타냄.
+- scatterplot = 산점도. 각 축은 수. 각 점은 데이터 한개.
+  - trend, 즉 두 변수 간의 relationship을 관찰할 수 있게 해준다.
+- line graph = time series = x축이 시간, y축이 수일 때의 데이터 변화를, 점들과 이를 이은 선분들로 나타낸 그래프
 
-## Test's Conventions
+
+## 기타
+- projected = 예상된 ⬌ actual
+- Order of operations: 괄호 -> 지수 -> 마이너스 -> 곱셈나눗셈(왼쪽부터) -> 덧셈뺄셈(왼쪽부터)
+- ∥는 평행 기호. (//와 달리 낯설다. 주의!) ⊥는 수직 기호.
