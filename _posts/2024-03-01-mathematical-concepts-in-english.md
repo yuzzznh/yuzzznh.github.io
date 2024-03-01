@@ -63,6 +63,7 @@ category: [summary]
 - **cube** = 세제곱 <-> **cube root **of ~ = 세제곱근!
 
 7. Function
+- coordinate plane = 좌표계
 - **quadrant** = 사분면
   - 1st, 2nd, 3rd, 4rd quadrant가 각각 1, 2, 3, 4사분면이다. (시계 반대방향!)
 - origin = 원점!!!
@@ -72,6 +73,21 @@ category: [summary]
 - parallel line = 평행선
 - **[perpendicular](.)** line = (교차하는 선에 대한) 수직선 **=/=** vertical line = (지면/x축에 대한) 수선
 - vertex/vertices = 꼭지점
+- intersect = 교차하다, 만나다
+- transversal = 가로지르는
+
+도형
+- **[acute](.)** angle = 예각 <-> **[obtuse]** angle = 둔각
+- bisector = 이등분선
+- degree = 각도
+- dimension = 크기, 치수
+- **[ellipse](.)** = 타원  
+- hexagon = 육각형
+- [inscribed](.) circle = 내접원
+- [perimeter](.) = 둘레
+- polygon = 다각형
+- semi-circle = 반원
+- sphere = 구 
 
 8. Triangle
 - **equilateral** triangle = 정삼각형 (equilateral은 변의 길이가 같다는 뜻. 정다각형을 의미)
@@ -89,19 +105,19 @@ category: [summary]
 - square = **정**사각형 (제곱도 정사각형도 square~)
 - **[rhombus](.) = 롬버스는 마름모!!**
 
-10.   Circle (원)
+10. Circle (원)
 - diameter = 지름 <-> radius = 반지름
 - [chord('코드')](.) = 현: 원 안의 선분! <-> [arc](.) = 호: 곡선! $$$2\pi r$$ 관련. <-> [sector](.) = 부채꼴. $$\pi r^2$$ 관련.
 - 지름과 현의 관계: chord에서 가장 긴 길이는 diameter (원의 center를 지날 때)
 
-11.   Set (집합)
+11. Set (집합)
 - either A or B = 합집합 = A 또는 B (교집합 아님!)
 - both A and B = 교집합
 - neither A nor B = 여집합
 - [either A or B, **but not both**](.) = 차집합 = **합집합 - 교집합** = A + B - **2** A ∩ B
 - circumference = 원주, 원의 둘레
 
-12.   Statistics
+12. Statistics
 - **average** = **mean** = arithmetic mean = **평균** (산술평균) (합산!)
 - **median** = 중앙값 (**위치**상 가운데! medium이랑 관련지어서 기억하자)
 - **[mode](.)** = 최빈값 (가장 빈번하게 나오는 숫자! frequency 가장 높음 -> **영향력**!)
@@ -112,3 +128,15 @@ category: [summary]
 - **[percentile](.)** = 백분위
   - 낮은점수부터 앞쪽으로 세준 것.
   - GRE도 percentile로 뜬다. *높을수록 잘 친 것*. 99%가 1등한 것!
+- [tie](.) = 비기다
+
+단위
+- **1 feet = 12 inch**
+- **penny** = 1 cent = 10원
+- **nickle** = 5 cent = 50원
+- **dime** = 10 cent = 100원
+- **quarter** = 25 cent = *(250원) 동전 <- 얘 빼고 싹 다 우리나라 동전/지폐랑 동일*
+- **dollar** = 100 cent = 1000원 지폐 *(1000원은 100센트지 1000센트가 아니다!!!)*
+
+기타
+- projected = 예상된 <-> actual
