@@ -35,7 +35,7 @@ author:
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
-# Add links to the sidebar. Yujin TODO
+# Add links to the sidebar.
 menu:
   - title:             About
     url:               /about/
