@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "디퓨전 변형 실험 중 유용한 명령어 메모"
+title: "Experiment memo..."
 description: >
   끄적끄적
 sitemap: true
