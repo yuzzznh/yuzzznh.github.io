@@ -5,7 +5,6 @@ description: >
   끄적끄적
 sitemap: true
 hide_last_modified: false
-category: [memo]
 ---
 
 tmux
