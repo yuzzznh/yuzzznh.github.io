@@ -54,9 +54,7 @@ hide_last_modified: true
 **Creamy Peach**
 - <span style='color: #f8d1c0' name='CreamyPeach1'>creamypeach1</span>: ```<span style='color: #f8d1c0' name='CreamyPeach1'>creamypeach1</span>```
 - <span style='color: #f3ab92' name='CreamyPeach2'>creamypeach2</span>: ```<span style='color: #f3ab92' name='CreamyPeach2'>creamypeach2</span>```
-- <span style='color: #f4a384' name='CreamyPeach3'>creamypeach3</span>: ```<span style='color: #f4a384' name='CreamyPeach
-
-3'>creamypeach3</span>```
+- <span style='color: #f4a384' name='CreamyPeach3'>creamypeach3</span>: ```<span style='color: #f4a384' name='CreamyPeach3'>creamypeach3</span>```
 - <span style='color: #ee8c6f' name='CreamyPeach4'>creamypeach4</span>: ```<span style='color: #ee8c6f' name='CreamyPeach4'>creamypeach4</span>```
 - <span style='color: #e77153' name='CreamyPeach5'>creamypeach5</span>: ```<span style='color: #e77153' name='CreamyPeach5'>creamypeach5</span>```
 
@@ -151,9 +149,7 @@ hide_last_modified: true
 - <span style='background-color: #d6bad3' name='LilacHaze2'>lilachaze2</span>: ```<span style='background-color: #d6bad3' name='LilacHaze2'>lilachaze2</span>```
 - <span style='background-color: #d5b6d4' name='LilacHaze3'>lilachaze3</span>: ```<span style='background-color: #d5b6d4' name='LilacHaze3'>lilachaze3</span>```
 - <span style='background-color: #c49fc1' name='LilacHaze4'>lilachaze4</span>: ```<span style='background-color: #c49fc1' name='LilacHaze4'>lilachaze4</span>```
-- <span style='background-color: #b487b
-
-0' name='LilacHaze5'>lilachaze5</span>: ```<span style='background-color: #b487b0' name='LilacHaze5'>lilachaze5</span>```
+- <span style='background-color: #b487b0' name='LilacHaze5'>lilachaze5</span>: ```<span style='background-color: #b487b0' name='LilacHaze5'>lilachaze5</span>```
 
 ### underline
 
@@ -189,9 +185,7 @@ hide_last_modified: true
 - <span style='color: white; text-decoration: underline; text-decoration-color: #d0e9e6;' name='TouchOfTurquoise1'>touchofturquoise1</span>: ```<span style='color: white; text-decoration: underline; text-decoration-color: #d0e9e6;' name='TouchOfTurquoise1'>touchofturquoise1</span>```
 - <span style='color: white; text-decoration: underline; text-decoration-color: #aad4d2;' name='TouchOfTurquoise2'>touchofturquoise2</span>: ```<span style='color: white; text-decoration: underline; text-decoration-color: #aad4d2;' name='TouchOfTurquoise2'>touchofturquoise2</span>```
 - <span style='color: white; text-decoration: underline; text-decoration-color: #a1d4cf;' name='TouchOfTurquoise3'>touchofturquoise3</span>: ```<span style='color: white; text-decoration: underline; text-decoration-color: #a1d4cf;' name='TouchOfTurquoise3'>touchofturquoise3</span>```
-- <span style='color: white; text-decoration: underline; text-decoration-color: #89c2bc;' name='TouchOfTurquoise4'>touchofturquoise4</span>: ```<span
-
- style='color: white; text-decoration: underline; text-decoration-color: #89c2bc;' name='TouchOfTurquoise4'>touchofturquoise4</span>```
+- <span style='color: white; text-decoration: underline; text-decoration-color: #89c2bc;' name='TouchOfTurquoise4'>touchofturquoise4</span>: ```<span style='color: white; text-decoration: underline; text-decoration-color: #89c2bc;' name='TouchOfTurquoise4'>touchofturquoise4</span>```
 - <span style='color: white; text-decoration: underline; text-decoration-color: #6fb0aa;' name='TouchOfTurquoise5'>touchofturquoise5</span>: ```<span style='color: white; text-decoration: underline; text-decoration-color: #6fb0aa;' name='TouchOfTurquoise5'>touchofturquoise5</span>```
 
 **Hint of Mint**
@@ -226,7 +220,5 @@ hide_last_modified: true
 - <span style='color: white; text-decoration: underline; text-decoration-color: #ebdaea;' name='LilacHaze1'>lilachaze1</span>: ```<span style='color: white; text-decoration: underline; text-decoration-color: #ebdaea;' name='LilacHaze1'>lilachaze1</span>```
 - <span style='color: white; text-decoration: underline; text-decoration-color: #d6bad3;' name='LilacHaze2'>lilachaze2</span>: ```<span style='color: white; text-decoration: underline; text-decoration-color: #d6bad3;' name='LilacHaze2'>lilachaze2</span>```
 - <span style='color: white; text-decoration: underline; text-decoration-color: #d5b6d4;' name='LilacHaze3'>lilachaze3</span>: ```<span style='color: white; text-decoration: underline; text-decoration-color: #d5b6d4;' name='LilacHaze3'>lilachaze3</span>```
-- <span style='color: white; text-decoration: underline; text-decoration-color: #c49fc1;' name='LilacHaze4'>lilachaze4</span>: ```<span style='color: white; text-decoration: underline; text-decoration-color: #c49fc1;' name='LilacHaze4'>lil
-
-achaze4</span>```
+- <span style='color: white; text-decoration: underline; text-decoration-color: #c49fc1;' name='LilacHaze4'>lilachaze4</span>: ```<span style='color: white; text-decoration: underline; text-decoration-color: #c49fc1;' name='LilacHaze4'>lilachaze4</span>```
 - <span style='color: white; text-decoration: underline; text-decoration-color: #b487b0;' name='LilacHaze5'>lilachaze5</span>: ```<span style='color: white; text-decoration: underline; text-decoration-color: #b487b0;' name='LilacHaze5'>lilachaze5</span>```
