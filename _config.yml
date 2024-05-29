@@ -14,10 +14,10 @@ title:                 yuzzznh
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Yuzzznh's blog for reviewing papers with code.
+  Yuzzznh's blog
 
 # A shorter description for the sidebar.
-tagline:               Hello! This is Yujin Kim's blog.
+tagline:               yuzzznh의 블로그입니다.
 
 # A list of keywords for your blog
 keywords:              []
