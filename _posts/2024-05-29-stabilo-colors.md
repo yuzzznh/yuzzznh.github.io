@@ -3,7 +3,7 @@ layout: post
 title: "Stabilo Color Codes"
 description: >
   너무너무 사랑하는 스타빌로 스윙쿨의 블로그 포스팅 용 컬러코드 모음
-sitemap: true
+sitemap: false
 hide_last_modified: true
 ---
 
