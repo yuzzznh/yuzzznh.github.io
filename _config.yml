@@ -41,10 +41,6 @@ menu:
     url:               /about/
   - title:             Blog
     url:               /blog/
-  - title:             Class
-    url:               /class/
-  - title:             Reviews
-    url:               /reviews/
   - title:             Projects
     url:               /projects/
   - title:             Résumé

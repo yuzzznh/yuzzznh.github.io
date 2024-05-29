@@ -3,7 +3,7 @@ layout: projects
 title: Projects
 show_collection: projects
 description: >
-  Take a look at yuzzznh's portfolio!
+  TBD
 no_groups: true
 ---
 
