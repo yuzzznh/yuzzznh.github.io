@@ -6,7 +6,8 @@ sitemap: false
 hide_last_modified: false
 category: "[2023, 멘토님 추천]"
 ---
-### Abstract
+# Adversarial Diffusion Distillation
+## Abstract
 
 #### <span style='color: #f4acb6' name='PinkBlush3'>Adversarial Diffusion Distillation = ADD</span>
 - **특징**
@@ -25,7 +26,7 @@ category: "[2023, 멘토님 추천]"
 - **의의**
 	- ADD는 foundation model을 활용해 single-step, real-time image synthesis을 하는 최초의 method
 
-### 1. Introduction
+## 1. Introduction
 - **Diffusion models (DMs)**
 	- 설명
 		- 생성모델 트렌드의 중심. 고퀄리티 이미지와 비디오 합성에 눈부신 발전 가져왔다.
@@ -66,7 +67,7 @@ category: "[2023, 멘토님 추천]"
 	- ADD는 single inference step만으로 복잡한 image composition (구성) 을 처리하면서 high image realism을 유지할 수 있다.
 	- 4 sampling step 기준으로 ADD-XL은 / teacher model로 사용된 SDXL-Base를 / 512 x 512 resolution (픽셀 해상도) 에서 / 능가하는 성능을 보여준다.
 
-### 2. Background
+## 2. Background
 - Diffusion model의 문제와 이를 해결하기 위한 노력들
 	- <span style='color: #f8dd74'>Diffusion model</span>
 		- <span style='color: #f8dd74'>iterative nature → real-time application 지연시킨다</span>
@@ -122,7 +123,7 @@ category: "[2023, 멘토님 추천]"
 		- quality 향상을 위해 Adversarial Score Matching의 score matching 목적 함수와 CTM의 consistency 목적 함수에 discriminator loss를 추가했다.
 - 이 논문의 <span style='color: #f4acb6'>ADD method</span>는 <span style='color: #f4acb6'>adversarial training과 score distillation을 hybrid objective에서 결합</span>함으로써 <span style='color: #d6e399'>현존하는 few-step generative model의 한계를 극복</span>한다.
 
-### 3. Method
+## 3. Method
 - 목표
 	- 최대한 적은 sampling step으로 high-fidelity sample 생성
 	- sota model의 quality에 뒤지지 않도록
