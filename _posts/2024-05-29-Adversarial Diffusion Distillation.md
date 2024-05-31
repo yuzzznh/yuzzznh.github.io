@@ -5,8 +5,11 @@ description:
 sitemap: false
 hide_last_modified: false
 category: "[Paper, 2023]"
+image: https://i.imgur.com/heiCsTH.png
 ---
 # Adversarial Diffusion Distillation
+
+Axel Sauer et al. / 2023 / Stability AI
 ## Abstract
 
 #### <span style='color: #f4acb6' name='PinkBlush3'>Adversarial Diffusion Distillation = ADD</span>
@@ -25,6 +28,8 @@ category: "[Paper, 2023]"
 	- 4 step → sota diffusion model (SDXL) 성능에 도달
 - **의의**
 	- ADD는 foundation model을 활용해 single-step, real-time image synthesis을 하는 최초의 method
+
+![](https://i.imgur.com/yRMI4PM.jpeg)
 
 ## 1. Introduction
 - **Diffusion models (DMs)**
@@ -80,11 +85,11 @@ category: "[Paper, 2023]"
 		- guidance distillation
 		- iterative sampling step을 4~8 수준으로 줄여주지만, <span style='color: #f8dd74'>성능 저하가 심각했다</span>
 		- <span style='color: #f8dd74'>iterative training process</span>를 요하기도 했다
-	- c<span style='color: #f8dd74'>onsistency model</span>
+	- <span style='color: #f8dd74'>consistency model</span>
 		- <span style='color: #d6e399'>ODE trajectory에 consistency regularization 적용</span>
 		- model distillation이 <span style='color: #d6e399'>iterative training process를 요하는 문제를 해결</span>
 		- few-shot setting에서 pixel-based model에 대해 좋은 성능을 보여줬다
-	- L<span style='color: #f8dd74'>CM (Latent consistency model)</span>
+	- <span style='color: #f8dd74'>LCM (Latent consistency model)</span>
 		- <span style='color: #d6e399'>LDM distilling</span>에 초점을 맞췄다
 		- <span style='color: #d6e399'>4 sampling step</span>에서 좋은 성능을 보였다
 	- <span style='color: #f8dd74'>LCM-LoRA</span>
@@ -134,4 +139,19 @@ category: "[Paper, 2023]"
 - <span style='color: #f4acb6'>score distillation objective</span>
 	- 이걸 통해 <span style='color: #f4acb6'>pretrained diffusion model의 gradient를 활용</span>하여 <span style='color: #d6e399'>text alignment와 sample quality를 개선</span>한다.
 - (처음부터 train하는 대신) pretrained diffusion model weights로 우리 모델을 initialize
-- 
+	- generator network를 pretrain하는 것은 adversarial loss를 쓰는 training을 상당히 개선하는 것이 알려져 있다.
+- GAN training에 쓰이는 decoder-only architecture를 쓰는 대신, standard diffusion model framework를 채택한다.
+	- This setup naturally enables iterative refinement.
+
+### 3.1 Training Procedure (학습 절차)
+
+![](https://i.imgur.com/heiCsTH.png)
+
+#### Networks:
+1. ADD-Student
+	- initialized from a pretrained Unet-DM with weights $\theta$
+1. discriminator
+	- with trainable weights $\phi$
+2. DM teacher
+	- with frozen weights $\psi$ 
+	- 
