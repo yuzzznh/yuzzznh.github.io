@@ -19,7 +19,7 @@ menu: true
 # sitemap: false
 
 # # Set to to true if you want the category or tag to appear in the sidebar
-# menu: true
+menu: true
 
 # Yujin TODO
 # 아래의 옵션들이 사용 가능한 것으로 보인다. 아니라면 빠르게 튀자
@@ -32,4 +32,4 @@ menu: true
 
 <!--author-->
 
-안녕하세요 김유진입니다~~
+<!-- 뭔가 쓸수도 있지만 안쓰기로 했다 ->

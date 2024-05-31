@@ -4,7 +4,7 @@ title: Adversarial Diffusion Distillation
 description: 
 sitemap: false
 hide_last_modified: false
-category: "[2023, 멘토님 추천]"
+category: "[Paper, 2023]"
 ---
 # Adversarial Diffusion Distillation
 ## Abstract
