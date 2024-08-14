@@ -13,4 +13,4 @@ invert_sidebar: false
 category: ""
 ---
 
-<span style='color: #f4acb6'>음냐</span>음냐 $E=mc^2$ 히히
+<span style='color: #f4acb6'>음냐</span>음냐 $E=mc^2$ 히히 방금껀 한개고 $$ \alpha \cdot \beta $$ 이건 $두개짜리당
