@@ -148,16 +148,7 @@ defaults:
 
 kramdown:
   math_engine: mathjax
-  math_engine_opts:
-    mathjax: 
-      tex:
-        inlineMath: [['$', '$'], ['\\(', '\\)']]  # 인라인 수식 구분자 설정
-        displayMath: [['$$', '$$'], ['\\[', '\\]']]  # 블록 수식 구분자 설정
-      options:
-        scale: 1.0  # 기본 수식 크기 조정
-        color: 'inherit'  # 수식 색상을 상속받게 설정
-        linebreaks:
-          automatic: true  # 자동 줄바꿈 설정
+  math_engine_opts: {}
   footnote_backlink: '&#x21a9;&#xfe0e;'  # 각주 뒤로 가기 링크 설정
 
 
