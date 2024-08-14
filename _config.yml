@@ -147,8 +147,20 @@ defaults:
         type:          WebPage
 
 kramdown:
-  math_engine:         mathjax
-  math_engine_opts:    {}
+  math_engine: mathjax
+  math_engine_opts:
+    extensions: [autobold, autoload-all]
+    inline_math_delimiters: ['$', '$']
+    display_math_delimiters: ['$$', '$$']
+    mathjax: 
+      tex: 
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      options:
+        scale: 1.0  # 기본 수식 크기 조정
+        color: 'inherit'  # 수식 색상을 상속받게 설정
+        linebreaks: 
+          automatic: true  # 자동 줄바꿈 설정        
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 
 
