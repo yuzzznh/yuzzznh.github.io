@@ -196,7 +196,7 @@ $v_d = \arg\min_{v_d} \sum_{u_e \in Z_e} \nabla s(u_e) \cdot (v_d - u_e).$
 
 ### 4.1 Dual Marching Cubes Mesh Extraction
 - FlexiCubes의 시작은, 각 grid vertex $x$에서의 scalar function value인 $s(x)$를 기반으로 <span style='color: #f4acb6'>DMC mesh의 connectivity를 extract</span>하는 것이다. ($v_d$의 connectivity)
-- Figure 7에서 볼 수 있듯, $\textcolor{#f4acb6}{s(x)}$<span style='color: #f4acb6'>의 </span><span style='color: #f4acb6'>cube corners에서의 부호</span>가 conectivity와 adjacency 관계를 결정한다. MC에서 그랬던 것처럼 edge 상에서의 interpolation을 통해 $u_e$ 점들을 얻는 것으로 시작한다.
+- Figure 7에서 볼 수 있듯, <span>$\textcolor{#f4acb6}{s(x)}$</span><span style='color: #f4acb6'>의 </span><span style='color: #f4acb6'>cube corners에서의 부호</span>가 conectivity와 adjacency 관계를 결정한다. MC에서 그랬던 것처럼 edge 상에서의 interpolation을 통해 $u_e$ 점들을 얻는 것으로 시작한다.
 - $u_e$들의 위치가 결정된 후 → $u_e$ 여러개를 포함하는 primal face들이 정해지고 → 그 primal face의 centroid 지점이 $v_d$가 된다. (= Equation 4)
 - <span style='color: #a6a6a6'>(vertex를 grid edge 위에서만 extract하는 MC와 달리)</span> <span style='color: #f4acb6'>DMC는 vertex를 cell의 각 primal face마다 1개씩 뽑는다. 이때 primal face는 grid의 한 면을 의미하는 것이 아니라 Figure 7에서 색칠된 다각형들에 해당하고, cell마다 보통 1개, 최대 4개 존재한다. 따라서 cell 한개당 vertex 개수도 1~4개가 된다.</span> (cell 한개에 primal face가 4개인 경우는 Figure 7의 case C13 참고)
 - <span style='color: #f4acb6'>adjacent cells 안의 extracted vertice(v_d)들은 edge로 link되는데, 결과적으로 4개의 neighboring dual vertices들로 이루어진 사각형의 면들이 dual mesh를 이루게 된다.</span> (Figure 5를 보면 초록색 $v_d$ 점 4개가 모여 사각형 면을 이루고 있다.)
