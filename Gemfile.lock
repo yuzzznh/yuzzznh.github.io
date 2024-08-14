@@ -17,8 +17,8 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    ffi (1.16.3)
-    ffi (1.16.3-x64-mingw-ucrt)
+    ffi (1.17.0-x64-mingw-ucrt)
+    ffi (1.17.0-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
     google-protobuf (3.25.3-x64-mingw-ucrt)
     google-protobuf (3.25.3-x86_64-linux)
@@ -101,7 +101,6 @@ GEM
     tzinfo-data (1.2024.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.5.0)
-    wdm (0.1.1)
     webrick (1.8.1)
 
 PLATFORMS
@@ -126,7 +125,6 @@ DEPENDENCIES
   jekyll-theme-hydejack!
   jekyll-titles-from-headings
   tzinfo-data
-  wdm
   webrick
 
 BUNDLED WITH
