@@ -164,9 +164,9 @@ $$ u_e = \frac{x_a \cdot s(x_b) - x_b \cdot s(x_a)}{s(x_b) - s(x_a)} $$
 ### <span style='color: #f4acb6'>Dual Contouring(DC)</span>
 - dual representation을 사용하며, 여기서 extract하는 <span style='color: #f4acb6'>mesh vertex는 일반적으로 grid cell 내부의 어느 곳에든지 위치할 수 있다. 따라서 sharp geometric feature들을 더 잘 캡쳐</span>할 수 있는 것은 당연지사.
 - 각 mesh vertex의 position은 다음과 같은 <span style='color: #f4acb6'>local quadratic error function (QEF, 이차 에러함수)를 minimizing하는 값</span>으로 결정된다.
-$$\begin{align}
+$$\begin{aligned}
 v_d = \arg\min_{v_d} \sum_{u_e \in Z_e} \nabla s(u_e) \cdot (v_d - u_e).
-\end{align}$$
+\end{aligned}$$
 - 여기서 $$u_e \in Z_e$$들은 cell edge 위의 점들 중 linearly-interpolated scalar function의 부호가 바뀌는 지점, 일명 zero-crossings이다.
 - <span style='color: #f4acb6'>Figure 3의 DC 그림에서, 하얀 점들이 <span style='color: #f4acb6'>u_e</span>에 해당하고 이것들이 QEF의 계산에 사용되는 입력값이다. 한편 QEF를 minimize하여 계산된 vertex들, 즉 v_d가 바로 초록 점들에 해당하며, 이를 dual vertex라고 부른다. → DC에서는 바로 이 초록 vertex들이 grid의 dual connectivity를 형성하며 mesh를 이루게 된다. == DC에서 vertex들은 grid의 dual connectivity를 따른다. == DC에서 QEF에 의해 최적화된 위치에 배치된 vertex들이 서로 연결되어 mesh를 이룬다.</span>
 - DC는 fixed scalar function으로부터 mesh 한개를 extract할 땐 <span style='color: #f4acb6'>sharp feature의 fitting에 매우 뛰어나지만</span>, 몇몇 특성이 DC를 <span style='color: #f8dd74'>differential optimization에 쓰기 힘들게</span> <span style='color: #f8dd74'>만든다.</span> 가장 중요한 건 위의 <span style='color: #f8dd74'>Equation 2가 extract된 vertex가 grid cell 안에 있다는 걸 보장해주지 않는다</span>는 점이다.
