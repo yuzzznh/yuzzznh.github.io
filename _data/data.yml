@@ -15,7 +15,7 @@ sidebar:
   # Sidebar links
   email: yujin.k@snu.ac.kr
   # phone: 012 345 6789
-  timezone: Asia/Seoul # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  # timezone: Asia/Seoul # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   # citizenship:
   # website: https://example.com/ # Include the full website URL, including "http://" or "https://".
   # linkedin: alandoe
@@ -46,15 +46,13 @@ sidebar:
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Diffusion Models
       link:
 
-
-    - item: Snowboarding
+    - item: Gaussian Splatting
       link:
 
-
-    - item: Cooking
+    - item: 4D Scene Reconstruction
       link:
 
 
@@ -133,11 +131,15 @@ certifications:
 projects:
   title: Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: Editing Images with MM-DiT Based Diffusion Models
+    link: "https://yuzzznh.github.io"
+    tagline: "Aug 2024 – Nov 2024 (ICCV 2025)"
+    
+  - title: Enhancing 4D Gaussian Splatting with Video Diffusion Models
+    link: "https://yuzzznh.github.io"
+    tagline: "Mar 2025 – Present"
 
 
 oss:
@@ -157,17 +159,17 @@ oss:
     link: "#"
     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+# publications:
+#   title: Publications
+#   intro: |
+#     You can list your publications in this section. Lorem ipsum dolor sit
+#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#     bibendum fringilla a eu lectus.
+#   papers:
+#   - title: The Art of Computer Programming
+#     link: "#"
+#     authors: Donald E. Knuth
+#     conference: Addison-Wesley, 1968
 
 
 recommendations:
@@ -188,26 +190,26 @@ recommendations:
 
       He is a great employee!
 
-skills:
-  title: Skills &amp; Proficiency
-
-  toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
+# skills:
+#   title: Skills &amp; Proficiency
+# 
+#   toolset:
+#   - name: Python & Django
+#     level: 98%
+# 
+#   - name: Javascript & jQuery
+#     level: 98%
+# 
+#   - name: Angular
+#     level: 98%
+# 
+#   - name: HTML5 & CSS
+#     level: 95%
+# 
+#   - name: Ruby on Rails
+#     level: 85%
+# 
+#   - name: Sketch & Photoshop
+#     level: 60%
 
 footer: >
