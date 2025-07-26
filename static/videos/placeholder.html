@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generating Dummy Videos</title>
+</head>
+<body>
+    <h1>Placeholder Video Generator</h1>
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <script>
+    // This HTML file is just for reference - the actual dummy videos need to be created differently
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    
+    ctx.fillStyle = '#f0f0f0';
+    ctx.fillRect(0, 0, 640, 480);
+    ctx.fillStyle = '#333';
+    ctx.font = '30px Arial';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText('Dummy Video Placeholder', 320, 240);
+    </script>
+</body>
+</html>

@@ -57,7 +57,7 @@ sidebar:
 
 
 career-profile:
-  title: Career Profile
+  title: Profile
   summary: |
     Hi!
 education:
@@ -71,7 +71,7 @@ education:
 experiences:
   title: Experiences
   info:
-  - role: Undergraduate Intern (Generative AI)
+  - role: Undergraduate Intern
     time: Jan 2024 - Present
     company: VGI Lab, Seoul National University
     details: |
