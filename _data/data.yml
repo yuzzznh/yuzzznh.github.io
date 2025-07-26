@@ -34,14 +34,14 @@ sidebar:
   # leetcode: # Please provide your LeetCode username.
   # pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
-  languages:
-    title: Languages
-    info:
-    - idiom: English
-      level: Fluent
-
-    - idiom: Korean
-      level: Native
+  # languages:
+  #   title: Languages
+  #   info:
+  #   - idiom: English
+  #     level: Fluent
+  #
+  #   - idiom: Korean
+  #     level: Native
 
   interests:
     title: Interests
@@ -71,21 +71,21 @@ education:
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Undergraduate Intern (Generative AI)
+    time: Jan 2024 - Present
+    company: VGI Lab, Seoul National University
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
+      # Describe your role here lorem ipsum dolor sit amet, consectetuer
+      # adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      # Cum sociis natoque penatibus et magnis dis parturient montes,
+      # nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      # pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      # enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      # error sit voluptatem accusantium doloremque laudantium, totam rem
+      # aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      # architecto beatae vitae dicta sunt explicabo.
+      #   - Bullet point
+      #   - Bullet point
 
 certifications:
   title: Certifications
@@ -138,7 +138,7 @@ projects:
     tagline: "Aug 2024 – Nov 2024 (ICCV 2025)"
     
   - title: Enhancing 4D Gaussian Splatting with Video Diffusion Models
-    link: "https://yuzzznh.github.io"
+    link: "/4d-gaussian-splatting"
     tagline: "Mar 2025 – Present"
 
 
