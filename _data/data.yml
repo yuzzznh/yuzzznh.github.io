@@ -122,10 +122,6 @@ projects:
   intro: >
     
   assignments:
-  - title: Editing Images with MM-DiT Based Diffusion Models
-    link: "https://yuzzznh.github.io"
-    tagline: "Aug 2024 – Nov 2024 (ICCV 2025)"
-    
   - title: Enhancing 4D Gaussian Splatting with Video Diffusion Models
     link: "/4d-gaussian-splatting"
     tagline: "Mar 2025 – Present"
@@ -148,17 +144,17 @@ oss:
     link: "#"
     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-# publications:
-#   title: Publications
-#   intro: |
-#     You can list your publications in this section. Lorem ipsum dolor sit
-#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#     bibendum fringilla a eu lectus.
-#   papers:
-#   - title: The Art of Computer Programming
-#     link: "#"
-#     authors: Donald E. Knuth
-#     conference: Addison-Wesley, 1968
+publications:
+  title: Publications
+  # intro: |
+  #   You can list your publications in this section. Lorem ipsum dolor sit
+  #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+  #   bibendum fringilla a eu lectus.
+  papers:
+  - title: Exploring Multimodal Diffusion Transformers for Enhanced Prompt-based Image Editing
+    link: "/exploring-mmdit"
+    authors: Joonghyuk Shin, Alchan Hwang, <u>Yujin Kim</u>, Daneul Kim, Jaesik Park
+    conference: Int. Conf. on Computer Vision (ICCV), 2025
 
 
 recommendations:
