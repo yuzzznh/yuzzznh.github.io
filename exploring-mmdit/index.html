@@ -244,53 +244,32 @@
       </div>
     </div> -->
 
-    <!-- Animation. -->
-    <!-- <div class="columns is-centered">
+    <!-- Method. -->
+    <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Method</h2>
 
-        <h3 class="title is-4">Subsection</h3>
         <div class="content has-text-justified">
           <p>
-            Dummy text for the subsection.
-          </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
-        </div>
-        <br/>
-
-        <h3 class="title is-4">Subsection 2</h3>
-        <div class="content has-text-justified">
-          <p>
-            Dummy text for the second subsection.
+            Our method leverages the unique architecture of multimodal diffusion transformers to enable prompt-based image editing.
           </p>
         </div>
         <div class="content has-text-centered">
-          <img src="./static/images/video-placeholder.jpg" alt="Replay video placeholder" style="width: 75%; height: auto;">
+          <img src="./static/images/method-architecture-diagram.png" alt="Method architecture diagram" style="width: 100%; height: auto;">
+          <p class="subtitle has-text-centered" style="margin-top: 1rem;">
+            Architectural illustration of our method. We replace target (editing)
+            branch projections q<sub>i</sub><sup>tgt</sup> and k<sub>i</sub><sup>tgt</sup>
+            with their source branch counterparts, q<sub>i</sub><sup>src</sup> and
+            k<sub>i</sub><sup>src</sup>. For local blending, we store the T2I
+            portion of unmodified attention maps from selected blocks in both branches
+            during early timesteps. A binary mask is computed from the union of these attention
+            maps after thresholding and used to blend the two latent images. Best viewed
+            zoomed in.
+          </p>
         </div>
 
       </div>
-    </div> -->
+    </div>
 
   </div>
 </section>
