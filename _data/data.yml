@@ -123,7 +123,7 @@ projects:
     
   assignments:
   - title: Enhancing 4D Gaussian Splatting with Video Diffusion Models
-    link: "/4d-gaussian-splatting"
+    link: "/4d-gaussian-splatting/"
     tagline: "Mar 2025 – Present"
 
 
@@ -152,7 +152,7 @@ publications:
   #   bibendum fringilla a eu lectus.
   papers:
   - title: Exploring Multimodal Diffusion Transformers for Enhanced Prompt-based Image Editing
-    link: "/exploring-mmdit"
+    link: "/exploring-mmdit/"
     authors: Joonghyuk Shin, Alchan Hwang, <u>Yujin Kim</u>, Daneul Kim, Jaesik Park
     conference: International Conference on Computer Vision (ICCV), 2025
 
