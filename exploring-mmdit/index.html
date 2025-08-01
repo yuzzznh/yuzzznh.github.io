@@ -251,20 +251,19 @@
 
         <div class="content has-text-justified">
           <p>
-            Our method leverages the unique architecture of multimodal diffusion transformers to enable prompt-based image editing.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <img src="./static/images/method-architecture-diagram.png" alt="Method architecture diagram" style="width: 100%; height: auto;">
-          <p class="subtitle has-text-centered" style="margin-top: 1rem;">
-            Architectural illustration of our method. We replace target (editing)
+            We replace target (editing)
             branch projections q<sub>i</sub><sup>tgt</sup> and k<sub>i</sub><sup>tgt</sup>
             with their source branch counterparts, q<sub>i</sub><sup>src</sup> and
             k<sub>i</sub><sup>src</sup>. For local blending, we store the T2I
             portion of unmodified attention maps from selected blocks in both branches
             during early timesteps. A binary mask is computed from the union of these attention
-            maps after thresholding and used to blend the two latent images. Best viewed
-            zoomed in.
+            maps after thresholding and used to blend the two latent images.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <img src="./static/images/method-architecture-diagram.png" alt="Method architecture diagram" style="max-height: 80vh; width: auto; margin: 0 auto; display: block;">
+          <p class="subtitle has-text-centered" style="margin-top: 1rem;">
+            Architectural illustration of our method.
           </p>
         </div>
 
